@@ -1,0 +1,44 @@
+body{
+ background-color: rgb(27,28,28);
+color: bisque;
+font-size: 20px;
+}
+.container{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    gap: 7px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.container div{
+    display: flex;
+  gap: 30px;
+}
+.container div button{
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: gold;
+    font-size: 24px;
+}
+.container input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid black;
+    font-size: 24px;
+}
+#calc{
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid black;
+    background-color:white;
+    color: blueviolet;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+button:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0,0, 0.24);
+}
